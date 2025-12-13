@@ -14,7 +14,7 @@ def test_add():
 
 def test_sub():
     assert sub(5, 6) == -1
-    assert sub(6, 5) == 0
+    assert sub(6, 5) == 1
 
 def test_mult():
     assert mult(5, 6) == 30
